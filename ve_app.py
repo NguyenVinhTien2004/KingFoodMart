@@ -4,8 +4,9 @@ import numpy as np
 from sklearn.cluster import KMeans
 import altair as alt
 from datetime import datetime, date
-from pymongo import MongoClient
-from bson import ObjectId
+from pymongo import MongoClient, ObjectId
+# Import configuration
+from config import config, validate_config
 
 # Import configuration
 from config import config, validate_config
